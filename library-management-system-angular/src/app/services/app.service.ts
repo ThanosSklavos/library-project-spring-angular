@@ -42,6 +42,10 @@ export class AppService {
     return this.http.put<void>(`http://localhost:8080/api/users/addBook/${userId}/${bookId}`, null);
   }
 
+  getUsersByBookId(bookId: number) {
+    return this.http.get<User[]>(`http://localhost:8080/api/users/getByBookId/${bookId}`)
+  }
+
    // THIS IS THE BOOK SERVICE
   getAllBooks() {
     return this.http.get<Book[]>('http://localhost:8080/api/books/getAll');

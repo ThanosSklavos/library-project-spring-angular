@@ -15,6 +15,7 @@ import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -91,6 +92,19 @@ public class UserServiceImpl implements IUserService {
             throw new EntityNotFoundException(User.class, id);
         }
         return user.get();
+    }
+
+    @Override
+    public List<User> getUsersByBookId(Long bookId) {
+        List<Rental> rentals = rentalRepository.findByBookId(bookId);
+        List<User> users = new ArrayList<>();
+
+        for (Rental rental : rentals) {
+            if (rental.getBook().getId() == bookId) {
+                users.add(rental.getUser());
+            }
+        }
+        return users;
     }
 
     @Override
@@ -173,6 +187,8 @@ public class UserServiceImpl implements IUserService {
     public boolean emailExists(String email) {
         return userRepository.findUserByEmail(email) != null;
     }
+
+
 
     private User map(UserDTO dto) {
         User user = new User();

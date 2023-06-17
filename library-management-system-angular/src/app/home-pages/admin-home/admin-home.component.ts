@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Book } from 'src/app/app.interfaces';
+import { Book, User } from 'src/app/app.interfaces';
 import { AppService } from 'src/app/services/app.service';
 import { AuthService } from 'src/app/services/auth.service';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
@@ -91,9 +91,20 @@ export class AdminHomeComponent implements OnInit {
   fetchBookList() {
     this.appService.getAllBooks().subscribe((books: Book[]) => {
       this.bookList = books;
-      console.log(books)
+      console.log(books);
+
+      // Fetch users that has rented each book
+      this.bookList.forEach((book: Book) => {
+        this.appService.getUsersByBookId(book.id).subscribe({
+          next: (response) => {
+            response.forEach((user: User) => {
+              book.rentByUser.push(user.username)
+            })
+          }
+      });
     });
-  }
+  })
+}
 }
 
 

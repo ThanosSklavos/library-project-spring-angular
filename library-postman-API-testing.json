@@ -243,6 +243,28 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "get users by book id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/getByBookID/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"getByBookID",
+								"6"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},

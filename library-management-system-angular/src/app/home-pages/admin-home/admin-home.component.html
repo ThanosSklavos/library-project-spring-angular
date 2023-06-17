@@ -9,7 +9,15 @@
               <h5 class="mb-1 text-dark fw-bold title-width">{{ book.title }}</h5>
               <small class="text-dark">{{ book.numberOfCopies }} copies left</small>
             </div>
-            <p class="mb-1 text-dark">by {{ book.authorFirstname }} {{ book.authorLastname }}</p>
+            <p class="mb-1 text-dark">Author: {{ book.authorFirstname }} {{ book.authorLastname }}</p>
+
+            <p class="mb-1 text-dark fw-bold">Rent by:
+              <ng-container *ngFor="let username of book.rentByUser; let isLastUser = last">
+                {{ username }}{{ !isLastUser ? ', ' : '' }}
+              </ng-container>
+            </p>
+            
+
             <div class="d-flex align-items-center">
               <button class="btn btn-sm btn-light text-dark justify-self-end btn-outline-dark fw-bold bg-danger"
                 (click)="deleteBook(book.id)" [disabled]="!isLoggedIn">Delete book</button>

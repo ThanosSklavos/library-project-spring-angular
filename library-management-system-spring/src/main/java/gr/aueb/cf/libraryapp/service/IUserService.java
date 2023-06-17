@@ -85,7 +85,7 @@ public interface IUserService {
     void addBook(Long userID, Long bookID) throws EntityAlreadyExistsException, EntityNotFoundException, OutOfStockException;
 
     /**
-     * Removes a {@link Book} from the user's borrowed books based on the provided user ID and book ID.
+     * Removes a {@link Book} from the user's renter books based on the provided user ID and book ID.
      *
      * @param userID The ID of the user.
      * @param bookID The ID of the book to be removed.
@@ -108,4 +108,11 @@ public interface IUserService {
      * @return {@code true} if the email exists, {@code false} otherwise.
      */
     boolean emailExists(String email);
+
+    /**
+     * Retrieves a list of {@link User} that have rented the {@link Book} with the provided Book ID
+     * @param bookId The id of the {@link Book}
+     * @return A list of {@link User} instances that match the search criteria.
+     */
+    List<User> getUsersByBookId(Long bookId);
 }

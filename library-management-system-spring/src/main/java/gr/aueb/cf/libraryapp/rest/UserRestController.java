@@ -306,6 +306,20 @@ public class UserRestController {
         }
     }
 
+    @Operation(summary = "Get Users by a Book they have rented")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Users by Book id",
+                    content = {
+                            @Content(mediaType = "application/json",
+                                    schema = @Schema(implementation = User.class)) }),
+            @ApiResponse(responseCode = "400", description = "",
+                    content = @Content) })
+    @RequestMapping(value = "users/getByBookId/{bookID}", method = RequestMethod.GET)
+    public ResponseEntity<List<User>> getUsersByBookId(@PathVariable("bookID") Long bookID) {
+        List<User> users = userService.getUsersByBookId(bookID);
+        return new ResponseEntity<>(users, HttpStatus.OK);
+    }
+
     //for testing security purposes.
     @RequestMapping(value = "/users/auth", method = RequestMethod.GET)
     public ResponseEntity<SecurityContext> getAuth() {
