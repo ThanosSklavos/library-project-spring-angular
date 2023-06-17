@@ -1,4 +1,4 @@
-# library-project-spring-angular
+A library management system project for @AUEB Coding Factory.
 
 step 1: configure application.properties in java (mySQL username and password) and run the app
 
