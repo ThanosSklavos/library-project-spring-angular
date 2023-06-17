@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="left-panel">
+      <h1 class="fw-bold">Welcome</h1>
+      <h1 class="fw-bold text-light">{{ loggedInUsername ? loggedInUsername : 'Guest' }},</h1>
+      <h3 class="text-light">Nice to see you back!</h3>
+    </div>
+    <div class="middle-panel">
+      <h2 class="fw-bold">  Books you have rented:</h2>
+
+      <div class="book-form list-group scrollable-list">
+        <li *ngFor="let book of user?.booksRented" class="book-item list-group-item list-group-item-action active bg list-item-color" aria-current="true">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1 text-dark fw-bold title-width">{{ book.title }}</h5>
+            <small class="text-dark">{{ book.numberOfCopies}} copies left</small>
+          </div>
+          <p class="mb-1 text-dark">by {{ book.authorFirstname }} {{ book.authorLastname }}</p>
+          <button *ngIf="user" class="btn btn-sm btn-warning fw-bold text-dark justify-self-end btn-outline-dark" (click)="returnBook(user.id, book.id)">Return</button>
+        </li>
+    </div>
+    <div class="right-panel"></div>
+  </div>

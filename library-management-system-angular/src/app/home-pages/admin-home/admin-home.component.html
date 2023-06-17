@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="margin-right ">
+      <h2 class="fw-bold">Our collection:</h2>
+      <br>
+      <div class="list-group scrollable-list">
+        <ng-container *ngFor="let book of bookList">
+          <li class="book-form book-item list-group-item list-group-item-action active list-item-color" aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1 text-dark fw-bold title-width">{{ book.title }}</h5>
+              <small class="text-dark">{{ book.numberOfCopies }} copies left</small>
+            </div>
+            <p class="mb-1 text-dark">by {{ book.authorFirstname }} {{ book.authorLastname }}</p>
+            <div class="d-flex align-items-center">
+              <button class="btn btn-sm btn-light text-dark justify-self-end btn-outline-dark fw-bold bg-danger"
+                (click)="deleteBook(book.id)" [disabled]="!isLoggedIn">Delete book</button>
+            </div>
+          </li>
+        </ng-container>
+      </div>
+      <div *ngIf="deleteBookMessage" class="fw-bold text-warning mb-4"><h5>{{ deleteBookMessage }}</h5></div>
+    </div>
+  
+    <div class="fw-bold book-form p-5">
+      <h2 class="fw-bold">Add a new book:</h2>
+  
+      <form [formGroup]="bookForm" (ngSubmit)="onSubmit()" [formGroup]="bookForm">
+        <div class="mb-3">
+          <label for="title" class="form-label">Title</label>
+          <input type="text" class="form-control" id="title" formControlName="title" required>
+        </div>
+        <div class="mb-3">
+          <label for="numberOfCopies" class="form-label">Number of Copies</label>
+          <input type="number" class="form-control" id="numberOfCopies" formControlName="numberOfCopies" required>
+        </div>
+        <div class="mb-3">
+          <label for="authorFirstname" class="form-label">Author Firstname</label>
+          <input type="text" class="form-control" id="authorFirstname" formControlName="authorFirstname" required>
+        </div>
+        <div class="mb-3">
+          <label for="authorLastname" class="form-label">Author Lastname</label>
+          <input type="text" class="form-control" id="authorLastname" formControlName="authorLastname" required>
+        </div>
+        <button type="submit" class="btn btn-success" [disabled]="!isLoggedIn || !bookForm.valid">Add Book</button>
+
+        <div *ngIf="insertMessage" class="fw-bold text-warning mb-4"><h5>{{ insertMessage }}</h5></div>
+
+      </form>
+    </div>
+  </div>

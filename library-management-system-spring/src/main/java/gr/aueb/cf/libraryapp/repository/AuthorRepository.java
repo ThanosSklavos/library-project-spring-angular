@@ -1,0 +1,14 @@
+package gr.aueb.cf.libraryapp.repository;
+
+import gr.aueb.cf.libraryapp.model.Author;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import java.util.List;
+
+@Repository
+public interface AuthorRepository extends JpaRepository<Author, Long> {
+    List<Author> findByLastnameStartingWith(String lastname);
+    Author findAuthorById(Long id);
+    Author findAuthorByLastname(String lastname);
+
+}

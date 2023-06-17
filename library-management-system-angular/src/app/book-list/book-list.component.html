@@ -1,0 +1,30 @@
+
+<div class="container">
+
+  <div>
+    <h2 class="fw-bold">Our collection:</h2>
+
+    <div class="list-group scrollable-list">
+      <ng-container *ngFor="let book of bookList">
+        <li class="book-form book-item list-group-item list-group-item-action active list-item-color" aria-current="true">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1 text-dark fw-bold title-width">{{ book.title }}</h5>
+            <small class="text-dark">{{ book.numberOfCopies }} copies left</small>
+          </div>
+          <p class="mb-1 text-dark">by {{ book.authorFirstname }} {{ book.authorLastname }}</p>
+          <div class="d-flex align-items-center">
+            <button class="btn btn-sm btn-light text-dark justify-self-end btn-outline-dark fw-bold bg-warning"
+              (click)="rentBook(book.id)" [disabled]="!isLoggedIn">Rent this book</button>
+
+            <div *ngIf="book.id === successBookId" class="alert alert-success ms-2 book-message">{{ successMessage }}</div>
+            <div *ngIf="book.id === errorBookId" class="alert alert-danger ms-2 book-message">{{ errorMessage }}</div>
+          </div>
+        </li>
+      </ng-container>
+    </div>
+  </div>
+
+  <div>
+    <button class="btn btn-lg btn-success fw-bold m-5" routerLink="/loggedin-home">Check your rented books!</button>
+  </div>
+</div>

@@ -1,0 +1,600 @@
+Jun 10, 2023 7:35:04 PM gr.aueb.cf.libraryapp.rest.UserRestController getUsersByUsername
+WARNING: Entity User with id 0 does not exist
+Jun 10, 2023 7:48:27 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title abook with id 2 is out of stock, please call us for more information
+Jun 10, 2023 8:48:38 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 10, 2023 8:49:46 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 10, 2023 8:49:51 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 10, 2023 9:59:01 PM gr.aueb.cf.libraryapp.rest.UserRestController userDeleteBook
+WARNING: Entity User with id 0 does not exist
+Jun 10, 2023 10:00:49 PM gr.aueb.cf.libraryapp.rest.UserRestController userDeleteBook
+WARNING: Entity User with id 1 does not exist
+Jun 10, 2023 10:01:32 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity User with id 1 does not exist
+Jun 10, 2023 10:02:12 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity User with id 2 does not exist
+Jun 10, 2023 10:10:11 PM gr.aueb.cf.libraryapp.rest.UserRestController userDeleteBook
+WARNING: Entity User with id 1 does not exist
+Jun 10, 2023 10:12:59 PM gr.aueb.cf.libraryapp.rest.UserRestController userDeleteBook
+WARNING: Entity User with id 0 does not exist
+Jun 10, 2023 10:15:13 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity User with id 2 does not exist
+Jun 10, 2023 10:15:59 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity User with id 2 does not exist
+Jun 10, 2023 10:22:25 PM gr.aueb.cf.libraryapp.rest.UserRestController userDeleteBook
+WARNING: Entity Rental does not exist
+Jun 10, 2023 10:23:18 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 10, 2023 10:40:05 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 10, 2023 10:40:06 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 10, 2023 11:17:10 PM gr.aueb.cf.libraryapp.rest.UserRestController getUsersByUsername
+WARNING: Entity User with id 0 does not exist
+Jun 11, 2023 1:26:13 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 11, 2023 1:26:18 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 11, 2023 1:26:24 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 11, 2023 2:25:58 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 11, 2023 2:27:51 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 11, 2023 2:28:04 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title test2 with id 2 is out of stock
+Jun 11, 2023 2:35:01 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title test2 with id 2 is out of stock
+Jun 11, 2023 4:09:53 PM gr.aueb.cf.libraryapp.rest.UserRestController updateUser
+WARNING: Entity User with id 111 does not exist
+Jun 11, 2023 4:30:10 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 2 does not exist
+Jun 11, 2023 5:54:59 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 26 does not exist
+Jun 11, 2023 5:55:02 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 26 does not exist
+Jun 11, 2023 5:56:22 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 26 does not exist
+Jun 11, 2023 5:56:32 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 26 does not exist
+Jun 11, 2023 5:56:33 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 26 does not exist
+Jun 11, 2023 5:56:33 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 26 does not exist
+Jun 11, 2023 5:57:16 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 26 does not exist
+Jun 11, 2023 5:57:17 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 25 does not exist
+Jun 11, 2023 5:57:19 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 27 does not exist
+Jun 11, 2023 5:57:29 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 26 does not exist
+Jun 11, 2023 5:57:46 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 27 does not exist
+Jun 11, 2023 5:57:47 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 27 does not exist
+Jun 11, 2023 5:57:47 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 27 does not exist
+Jun 11, 2023 6:02:19 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 27 does not exist
+Jun 11, 2023 6:02:23 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 28 does not exist
+Jun 11, 2023 6:21:29 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 28 does not exist
+Jun 11, 2023 6:21:30 PM gr.aueb.cf.libraryapp.rest.BookRestController getBookById
+WARNING: Entity Book with id 28 does not exist
+Jun 11, 2023 6:27:32 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 1 does not exist
+Jun 11, 2023 6:28:25 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title lordofdaringos with id 33 is out of stock
+Jun 11, 2023 6:29:54 PM gr.aueb.cf.libraryapp.rest.UserRestController userDeleteBook
+WARNING: Entity Rental does not exist
+Jun 11, 2023 8:47:30 PM gr.aueb.cf.libraryapp.rest.AuthorRestController deleteAuthor
+WARNING: Entity Author with id 38 does not exist
+Jun 14, 2023 11:00:19 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 14, 2023 11:02:24 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 14, 2023 11:11:18 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 14, 2023 11:11:18 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 14, 2023 11:11:40 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 14, 2023 11:11:40 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 14, 2023 11:11:40 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 14, 2023 11:12:35 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 14, 2023 11:12:35 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 14, 2023 11:12:35 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 14, 2023 11:12:35 PM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 0 does not exist
+Jun 15, 2023 7:58:36 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:32:20 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:32:39 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:33:27 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:36:49 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:40:48 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:47:54 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:47:57 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:48:47 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:48:48 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:48:50 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:49:45 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:50:11 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title lordofdaringos with id 33 is out of stock
+Jun 15, 2023 9:50:21 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:52:07 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:52:09 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:52:10 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:52:10 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 9:52:11 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 11:23:58 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 11:23:58 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 11:23:59 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 11:24:00 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 15, 2023 11:24:04 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 8:48:51 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 9:35:41 PM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 93 does not exist
+Jun 16, 2023 9:41:13 PM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 44 does not exist
+Jun 16, 2023 9:42:50 PM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 73 does not exist
+Jun 16, 2023 9:50:32 PM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 83 does not exist
+Jun 16, 2023 9:50:39 PM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 95 does not exist
+Jun 16, 2023 9:52:25 PM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 96 does not exist
+Jun 16, 2023 9:53:04 PM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 90 does not exist
+Jun 16, 2023 9:57:49 PM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 88 does not exist
+Jun 16, 2023 10:07:04 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:07:05 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:07:06 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:07:07 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:07:09 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:07:25 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:07:26 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:07:27 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:08:00 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:08:07 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:08:07 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:08:08 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:08:08 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:08:29 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title lordofdaringos with id 33 is out of stock
+Jun 16, 2023 10:08:30 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:10:03 PM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 125 does not exist
+Jun 16, 2023 10:11:27 PM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 127 does not exist
+Jun 16, 2023 10:26:14 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title lordofdaringos with id 33 is out of stock
+Jun 16, 2023 10:26:15 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:26:15 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:26:17 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:27:49 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title lordofdaringos with id 33 is out of stock
+Jun 16, 2023 10:27:50 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:27:51 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:28:17 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title lordofdaringos with id 33 is out of stock
+Jun 16, 2023 10:28:18 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:28:18 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:28:19 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:28:19 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:28:30 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title lordofdaringos with id 33 is out of stock
+Jun 16, 2023 10:28:34 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title lordofdaringos with id 33 is out of stock
+Jun 16, 2023 10:28:39 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title lordofdaringos with id 33 is out of stock
+Jun 16, 2023 10:28:41 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:28:42 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:29:03 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:29:07 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:29:07 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:29:09 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:29:09 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:29:10 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:29:11 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:29:35 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title lordofdaringos with id 33 is out of stock
+Jun 16, 2023 10:29:37 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:29:39 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:29:40 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:29:40 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:29:58 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title lordofdaringos with id 33 is out of stock
+Jun 16, 2023 10:29:59 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title lordofdaringos with id 33 is out of stock
+Jun 16, 2023 10:47:56 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title lordofdaringos with id 33 is out of stock
+Jun 16, 2023 10:47:58 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title book1 with id 102 is out of stock
+Jun 16, 2023 10:48:04 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 10:48:05 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 11:04:23 PM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 16, 2023 11:04:37 PM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 16, 2023 11:05:45 PM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 3 does not exist
+Jun 16, 2023 11:06:54 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 11:06:55 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 11:06:56 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 11:06:57 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 16, 2023 11:06:57 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 17, 2023 12:17:45 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:17:59 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:20:37 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:20:42 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 5 does not exist
+Jun 17, 2023 12:20:42 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 5 does not exist
+Jun 17, 2023 12:20:43 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 5 does not exist
+Jun 17, 2023 12:21:11 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:21:38 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:21:47 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 11 does not exist
+Jun 17, 2023 12:22:15 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:28:04 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:28:41 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:29:58 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:30:46 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:32:17 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:33:26 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:33:46 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:34:09 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:34:09 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 10 does not exist
+Jun 17, 2023 12:35:32 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:35:45 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:35:58 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:36:37 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:36:47 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:39:40 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:39:51 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:40:03 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:50:08 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:50:26 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:50:34 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:53:33 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:53:57 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:55:04 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:55:52 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 18 does not exist
+Jun 17, 2023 12:55:53 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 18 does not exist
+Jun 17, 2023 12:56:46 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 18 does not exist
+Jun 17, 2023 12:56:46 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 18 does not exist
+Jun 17, 2023 12:56:50 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:56:56 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:58:29 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:58:38 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:59:08 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 22 does not exist
+Jun 17, 2023 12:59:09 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 22 does not exist
+Jun 17, 2023 1:00:28 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:00:46 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:02:14 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:02:23 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:09:15 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:09:23 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:09:39 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:09:41 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 30 does not exist
+Jun 17, 2023 1:11:33 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:11:40 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:11:46 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:12:16 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:12:37 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:13:11 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:14:23 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:14:30 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:14:35 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:17:12 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:17:24 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:17:33 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 1:17:45 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:19:48 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:19:55 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:24:35 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:24:35 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 40 does not exist
+Jun 17, 2023 10:24:35 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:24:36 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:24:36 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 40 does not exist
+Jun 17, 2023 10:24:36 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:24:36 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 40 does not exist
+Jun 17, 2023 10:24:36 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:24:36 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:24:36 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:24:36 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 40 does not exist
+Jun 17, 2023 10:24:36 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:24:37 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:24:37 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 40 does not exist
+Jun 17, 2023 10:24:37 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:24:37 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:24:37 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 40 does not exist
+Jun 17, 2023 10:24:37 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:24:37 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:24:37 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 40 does not exist
+Jun 17, 2023 10:24:37 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:25:20 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:25:20 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 40 does not exist
+Jun 17, 2023 10:25:20 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:25:25 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:25:31 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:32:04 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 47 does not exist
+Jun 17, 2023 10:32:04 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:32:30 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:32:55 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:35:45 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:35:52 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:35:59 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:36:05 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 50 does not exist
+Jun 17, 2023 10:36:10 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 50 does not exist
+Jun 17, 2023 10:36:16 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:37:23 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:37:28 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:38:16 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:38:22 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 54 does not exist
+Jun 17, 2023 10:38:30 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 54 does not exist
+Jun 17, 2023 10:38:36 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:38:39 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:39:08 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:39:14 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:39:16 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:39:19 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:41:06 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:41:10 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:41:17 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:41:28 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:41:42 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:44:25 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:44:32 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:44:37 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:44:55 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:45:08 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:45:12 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:46:17 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:46:22 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:46:27 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:46:57 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:47:01 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:47:04 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:47:13 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:47:18 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:47:22 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:47:26 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:47:30 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:48:22 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 74 does not exist
+Jun 17, 2023 10:48:22 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 74 does not exist
+Jun 17, 2023 10:48:23 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 74 does not exist
+Jun 17, 2023 10:48:23 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 74 does not exist
+Jun 17, 2023 10:48:24 AM gr.aueb.cf.libraryapp.rest.BookRestController deleteBook
+WARNING: Entity Book with id 76 does not exist
+Jun 17, 2023 10:48:29 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:48:32 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:48:57 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:49:03 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:50:41 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:50:46 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 10:50:50 AM gr.aueb.cf.libraryapp.rest.BookRestController getAllBooks
+WARNING: Entity Book does not exist
+Jun 17, 2023 12:23:45 PM gr.aueb.cf.libraryapp.rest.AuthorRestController getAuthorsByTitle
+WARNING: Entity Author with id 0 does not exist

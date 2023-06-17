@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.7.12'
+    id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+}
+
+group = 'gr.pers.proj'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.7.10'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.security:spring-security-test'
+    runtimeOnly 'com.mysql:mysql-connector-j'
+    implementation 'org.mindrot:jbcrypt:0.4'
+    implementation 'org.springdoc:springdoc-openapi-ui:1.6.4'
+    implementation 'org.slf4j:slf4j-api:2.0.7'
+    implementation 'org.slf4j:jul-to-slf4j:2.0.7'
+    implementation 'org.slf4j:slf4j-simple:2.0.7'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '2.7.10'
+
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}

@@ -1,0 +1,32 @@
+
+<nav class="navbar navbar-expand navbar-light bg-dark px-4">
+  <a routerLink="" class="navbar-brand" href="#">
+    <h1 class="text-light fw-bold">The BookStore.</h1>
+  </a>
+
+  <div class="navbar-collapse d-flex justify-content-center" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <h3 class="text-light margin-right">Login to</h3>
+      </li>
+      <li class="nav-item">
+        <button class="btn bg-light text-dark fw-bold" [routerLink]="getBrowseLink()" [disabled]="!isLoggedIn">
+          Browse our Collection
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <ng-container *ngIf="isLoggedIn; else loginLink">
+          <button class="btn bg-light text-dark fw-bold" (click)="logout()">Logout</button>
+        </ng-container>
+        <ng-template #loginLink>
+          <a class="btn bg-light text-dark fw-bold" routerLink="/login">Login</a>
+        </ng-template>
+      </li>
+    </ul>
+  </div>
+</nav>

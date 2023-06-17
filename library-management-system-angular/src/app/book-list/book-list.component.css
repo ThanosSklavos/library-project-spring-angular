@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 80vh;
+  }
+  
+
+  .list-item-color {
+    background-color: rgb(201, 234, 241);
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  .book-form {
+    max-width: 500px;
+    word-wrap: break-word;
+  }
+
+  .title-width {
+    max-width: 300px;
+  }
+
+  .scrollable-list {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+
+  .book-message {
+    font-size: 12px;
+    padding: 4px 8px;
+    margin-top: 2px;
+  }

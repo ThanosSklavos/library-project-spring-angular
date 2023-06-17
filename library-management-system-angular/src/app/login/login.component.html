@@ -1,0 +1,13 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()" class="login-form margin-right">
+  <p class="h4 mb-4 text-center fw-bold ">Login</p>
+
+  <input type="text" id="username" class="form-control mb-4" placeholder="Username" formControlName="username"
+  />
+  <input type="password"  id="password"  class="form-control mb-4" placeholder="Password" formControlName="password"
+  />
+  <div *ngIf="errorMessage" class="fw-bold text-warning mb-4"><h5>{{ errorMessage }}</h5></div>
+
+  <button type="submit" class="btn btn-dark">
+    Submit
+  </button>
+</form>
