@@ -1,1 +1,0 @@
-# libraryapp-spring-angular
