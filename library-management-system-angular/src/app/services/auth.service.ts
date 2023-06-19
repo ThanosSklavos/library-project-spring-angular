@@ -23,6 +23,7 @@ export class AuthService {
       (response => {
         if (response.loggedInUserId === null || response.loggedInUserId === 0) {
           this.isLoggedInSubject.next(false);
+          this.router.navigate(['/login']);
           return;
         }
         

@@ -20,6 +20,7 @@ export class LoginComponent {
   }
 
   onSubmit() {
+    this.errorMessage = '';
     const { username, password } = this.form.value;
     
     this.authService.login(username, password);
