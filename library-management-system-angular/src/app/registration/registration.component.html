@@ -1,8 +1,9 @@
 <div class="container">
   <h1 >Registration</h1>
   <form [formGroup]="form" (ngSubmit)="onSubmit()">
-      <div class="mb-3 fw-bold">
-          <label for="username" class="form-label">Username</label>
+      <div class="mb-3">
+        <label for="username" class="form-label fw-bold">Username</label>
+        <small class="m-1">(min length 3)</small>
           <input
             type="text"
             class="form-control"
@@ -10,8 +11,9 @@
             formControlName="username"
           />
         </div>
-        <div class="mb-3 fw-bold">
-          <label for="password" class="form-label">Password</label>
+        <div class="mb-3">
+          <label for="password" class="form-label  fw-bold">Password</label>
+          <small class="m-1">(min length 3)</small>
           <input
             type="password"
             class="form-control"
