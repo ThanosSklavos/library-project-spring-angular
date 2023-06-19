@@ -328,8 +328,6 @@ public class UserRestController {
         return new ResponseEntity(HttpStatus.OK);
     }
 
-
-
     private UserDTO map(User user) {
         UserDTO dto = new UserDTO();
         dto.setId(user.getId());
@@ -348,12 +346,14 @@ public class UserRestController {
         dto.setLastname(user.getLastname());
         dto.setEmail(user.getEmail());
 
-        List<BookDTO> books = new ArrayList<>();
+        List<BookDTO> bookDTOs = new ArrayList<>();
         for (Rental rental : user.getRentals()) {
-            books.add(mapBook(rental.getBook()));
+            BookDTO bookDTO = mapBook(rental.getBook());
+            bookDTO.setRentedDate(rental.getRentalDate());
+            bookDTOs.add(bookDTO);
         }
 
-        dto.setBooksRented(books);
+        dto.setBooksRented(bookDTOs);
 
         return dto;
     }

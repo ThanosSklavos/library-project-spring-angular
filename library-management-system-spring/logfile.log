@@ -638,3 +638,27 @@ Jun 18, 2023 11:18:04 AM gr.aueb.cf.libraryapp.rest.UserRestController userAddBo
 WARNING: Entity Rental already exists
 Jun 18, 2023 11:18:05 AM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
 WARNING: Entity Rental already exists
+Jun 18, 2023 7:32:48 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 18, 2023 7:32:51 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title fg with id 52 is out of stock
+Jun 19, 2023 10:50:05 AM gr.aueb.cf.libraryapp.rest.UserRestController getUserById
+WARNING: Entity User with id 4 does not exist
+Jun 19, 2023 1:02:12 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 19, 2023 1:02:12 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 19, 2023 1:02:14 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 19, 2023 1:02:17 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 19, 2023 1:02:19 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 19, 2023 1:02:24 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 19, 2023 1:11:28 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 19, 2023 1:12:07 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title fg with id 52 is out of stock
+Jun 19, 2023 1:12:11 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists

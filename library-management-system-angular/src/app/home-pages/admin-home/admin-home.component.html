@@ -11,7 +11,7 @@
             </div>
             <p class="mb-1 text-dark">Author: {{ book.authorFirstname }} {{ book.authorLastname }}</p>
 
-            <p class="mb-1 text-dark fw-bold">Rent by:
+            <p class="mb-1 text-dark"><strong>Rent by:</strong>
               <ng-container *ngFor="let username of book.rentByUser; let isLastUser = last">
                 {{ username }}{{ !isLastUser ? ', ' : '' }}
               </ng-container>

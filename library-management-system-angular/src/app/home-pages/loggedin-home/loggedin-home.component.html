@@ -13,7 +13,10 @@
             <h5 class="mb-1 text-dark fw-bold title-width">{{ book.title }}</h5>
             <small class="text-dark">{{ book.numberOfCopies}} copies left</small>
           </div>
-          <p class="mb-1 text-dark">by {{ book.authorFirstname }} {{ book.authorLastname }}</p>
+          <div class="d-flex w-100 justify-content-between">
+            <p class="mb-1 text-dark">by {{ book.authorFirstname }} {{ book.authorLastname }}</p>
+            <p class="mb-1 text-dark">Rent Date: <strong>{{book.rentedDate}}</strong> </p>
+         </div>
           <button *ngIf="user" class="btn btn-sm btn-warning fw-bold text-dark justify-self-end btn-outline-dark" (click)="returnBook(user.id, book.id)">Return</button>
         </li>
     </div>

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../../services/auth.service';
 import { AppService } from '../../services/app.service';
-import { User, Book } from '../../app.interfaces';
+import { User } from '../../app.interfaces';
 
 @Component({
   selector: 'app-loggedin-home',
@@ -21,6 +21,7 @@ export class LoggedinHomeComponent implements OnInit {
       this.appService.getUserById(this.loggedInUserId$).subscribe((user: User) => {
         this.user = user;
         this.loggedInUsername = user.username;
+        console.log(user)
       });
     }
   }

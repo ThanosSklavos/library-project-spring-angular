@@ -20,6 +20,7 @@ export interface Book {
     numberOfCopies: number
     authorFirstname: string
     authorLastname: string
+    rentedDate: string
     rentByUser: string[]
 }
 
