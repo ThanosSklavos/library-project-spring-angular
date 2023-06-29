@@ -7,6 +7,8 @@ import gr.aueb.cf.libraryapp.service.exceptions.EntityAlreadyExistsException;
 import gr.aueb.cf.libraryapp.service.exceptions.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import java.util.List;
 import java.util.Optional;
 
@@ -20,6 +22,7 @@ public class AuthorServiceImpl implements IAuthorService{
         this.authorRepository = authorRepository;
     }
 
+    @Transactional
     @Override
     public Author insertAuthor(AuthorDTO authorDTO) throws EntityAlreadyExistsException {
         if (authorRepository.findAuthorByLastname(authorDTO.getLastname()) != null) {
@@ -28,6 +31,7 @@ public class AuthorServiceImpl implements IAuthorService{
         return authorRepository.save(map(authorDTO));
     }
 
+    @Transactional
     @Override
     public Author deleteAuthor(Long id) throws EntityNotFoundException {
         Author author = authorRepository.findAuthorById(id);
@@ -38,6 +42,7 @@ public class AuthorServiceImpl implements IAuthorService{
         return author;
     }
 
+    @Transactional
     @Override
     public List<Author> getAuthorByLastname(String lastname) throws EntityNotFoundException {
         List<Author> authors;
@@ -48,6 +53,7 @@ public class AuthorServiceImpl implements IAuthorService{
         return authors;
     }
 
+    @Transactional
     @Override
     public Author getAuthorById(Long id) throws EntityNotFoundException {
         Optional<Author> author;

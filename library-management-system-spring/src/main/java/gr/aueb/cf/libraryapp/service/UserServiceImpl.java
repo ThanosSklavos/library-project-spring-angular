@@ -14,6 +14,8 @@ import gr.aueb.cf.libraryapp.service.exceptions.OutOfStockException;
 import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -37,6 +39,7 @@ public class UserServiceImpl implements IUserService {
     }
 
 
+    @Transactional
     @Override
     public User insert(UserDTO dto) throws EntityAlreadyExistsException {
         if (userRepository.findUserByUsername(dto.getUsername()) != null) {
@@ -45,6 +48,7 @@ public class UserServiceImpl implements IUserService {
         return userRepository.save(map(dto));
     }
 
+    @Transactional
     @Override
     public User update(UserDTO dto) throws EntityNotFoundException {
         User user = map(dto);
@@ -54,6 +58,7 @@ public class UserServiceImpl implements IUserService {
         return userRepository.save(user);
     }
 
+    @Transactional
     @Override
     public User delete(Long id) throws EntityNotFoundException {
         User user = userRepository.findUserById(id);
@@ -64,6 +69,7 @@ public class UserServiceImpl implements IUserService {
         return user;
     }
 
+    @Transactional
     @Override
     public List<User> getUsersByUsername(String username) throws EntityNotFoundException {
         List<User> users;
@@ -74,6 +80,7 @@ public class UserServiceImpl implements IUserService {
         return users;
     }
 
+    @Transactional
     @Override
     public List<User> getAllUsers() throws EntityNotFoundException {
         List<User> users = userRepository.findAll();
@@ -83,6 +90,7 @@ public class UserServiceImpl implements IUserService {
         return users;
     }
 
+    @Transactional
     @Override
     public User getUserById(Long id) throws EntityNotFoundException {
         Optional<User> user;
@@ -94,6 +102,7 @@ public class UserServiceImpl implements IUserService {
         return user.get();
     }
 
+    @Transactional
     @Override
     public List<User> getUsersByBookId(Long bookId) {
         List<Rental> rentals = rentalRepository.findByBookId(bookId);
@@ -107,6 +116,7 @@ public class UserServiceImpl implements IUserService {
         return users;
     }
 
+    @Transactional
     @Override
     public LoginDTO isUserValid(LoginDTO loginDTO) {
         User user = userRepository.findUserByUsername(loginDTO.getUsername().trim());
@@ -122,6 +132,7 @@ public class UserServiceImpl implements IUserService {
         return loginDTO;
     }
 
+    @Transactional
     @Override
     public void addBook(Long userID, Long bookID) throws EntityAlreadyExistsException, EntityNotFoundException, OutOfStockException {
         User user = userRepository.findUserById(userID);
@@ -152,6 +163,7 @@ public class UserServiceImpl implements IUserService {
 
     }
 
+    @Transactional
     @Override
     public void removeBook(Long userID, Long bookID) throws EntityNotFoundException {
         User user = userRepository.findUserById(userID);

@@ -10,6 +10,8 @@ import gr.aueb.cf.libraryapp.service.exceptions.EntityNotFoundException;
 import gr.aueb.cf.libraryapp.service.exceptions.OutOfStockException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import java.util.List;
 import java.util.Optional;
 
@@ -25,6 +27,7 @@ public class BookServiceImpl implements IBookService{
         this.authorRepository = authorRepository;
     }
 
+    @Transactional
     @Override
     public Book insertBook(BookDTO bookDTO) throws EntityAlreadyExistsException {
         if (bookRepository.findBookByTitle(bookDTO.getTitle()) != null) {
@@ -42,6 +45,7 @@ public class BookServiceImpl implements IBookService{
         return bookRepository.save(map(bookDTO));
     }
 
+    @Transactional
     @Override
     public Book removeBook(Long id) throws EntityNotFoundException {
         Book book = bookRepository.findBookById(id);
@@ -52,6 +56,7 @@ public class BookServiceImpl implements IBookService{
         return book;
     }
 
+    @Transactional
     @Override
     public List<Book> getBooksByTitle(String title) throws EntityNotFoundException {
         List<Book> books;
@@ -62,6 +67,7 @@ public class BookServiceImpl implements IBookService{
         return books;
     }
 
+    @Transactional
     @Override
     public Book getBookById(Long id) throws EntityNotFoundException {
         Optional<Book> book;
@@ -73,6 +79,7 @@ public class BookServiceImpl implements IBookService{
         return book.get();
     }
 
+    @Transactional
     @Override
     public Book updateBook(BookDTO bookDTO) throws EntityNotFoundException {
         Book book = map(bookDTO);
@@ -82,6 +89,7 @@ public class BookServiceImpl implements IBookService{
         return  bookRepository.save(book);
     }
 
+    @Transactional
     @Override
     public Book decreaseNumberOfCopies(Book book) throws OutOfStockException {
         int numberOfCopies = book.getNumberOfCopies();
@@ -94,12 +102,14 @@ public class BookServiceImpl implements IBookService{
         return book;
     }
 
+    @Transactional
     @Override
     public Book increaseNumberOfCopies(Book book) {
         book.setNumberOfCopies(book.getNumberOfCopies() + 1);
         return book;
     }
 
+    @Transactional
     @Override
     public List<Book> getAllBooks() throws EntityNotFoundException {
         List<Book> books = bookRepository.findAll();

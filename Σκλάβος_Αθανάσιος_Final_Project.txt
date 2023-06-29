@@ -1,0 +1,18 @@
+Το link του project στο Github:
+https://github.com/ThanosSklavos/library-project-spring-angular.git
+
+Η βάση δημιουργείται αυτόματα, αλλάζετε μόνο το username + password στο application.properties.
+
+
+Παρακαλώ δημιουργήστε ένα account με username admin και password admin,
+κάντε login ως admin, στην αρχική σελίδα του admin μπορείτε να προσθέσετε μερικά
+βιβλία στην βάση δεδομένων.
+(ο author του βιβλίου αντιστοιχείται σε ένα νέο entity
+στην βάση εάν δεν υπάρχει και διαγράφεται εάν δεν υπάρχουν βιβλία του στην βάση)
+
+Στη συνέχεια δημιουργήστε ένα account με τα δικά σας credentials και κάντε
+login ως απλός user για να κάνετε rent ή return κάποια βιβλία.
+
+Τώρα ως admin μπορείτε να δείτε από ποιούς user έχει ενοικιαστεί το κάθε βιβλίο
+και τα αντίτυπα που έχουν μείνει σε απόθεμα.
+

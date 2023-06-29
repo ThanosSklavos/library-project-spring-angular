@@ -674,3 +674,9 @@ Jun 19, 2023 1:57:29 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBoo
 WARNING: Title book2 with id 6 is out of stock
 Jun 19, 2023 1:57:38 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
 WARNING: Entity Rental already exists
+Jun 29, 2023 7:00:02 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Title asdd with id 15 is out of stock
+Jun 29, 2023 7:00:03 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
+Jun 29, 2023 7:00:04 PM gr.aueb.cf.libraryapp.rest.UserRestController userAddBook
+WARNING: Entity Rental already exists
